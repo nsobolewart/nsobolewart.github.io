@@ -12,7 +12,7 @@ gdjs.evtsExt__YGameSDK__ShowVideo.condition0IsTrue_0 = {val:false};
 gdjs.evtsExt__YGameSDK__ShowVideo.condition1IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__YGameSDK__ShowVideo.userFunc0xabc2c8 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__YGameSDK__ShowVideo.userFunc0xb2a448 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 var vid = runtimeScene.getGame().getVariables().get("YGameSDK_RewardedVideoResult"); 
 
@@ -49,7 +49,7 @@ gdjs.evtsExt__YGameSDK__ShowVideo.eventsList0 = function(runtimeScene, eventsFun
 {
 
 
-gdjs.evtsExt__YGameSDK__ShowVideo.userFunc0xabc2c8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__YGameSDK__ShowVideo.userFunc0xb2a448(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
