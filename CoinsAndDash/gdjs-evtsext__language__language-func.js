@@ -1,53 +1,33 @@
 
-if (typeof gdjs.evtsExt__YGameSDK__InitPlayer !== "undefined") {
-  gdjs.evtsExt__YGameSDK__InitPlayer.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__Language__Language !== "undefined") {
+  gdjs.evtsExt__Language__Language.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__YGameSDK__InitPlayer = {};
+gdjs.evtsExt__Language__Language = {};
 
-gdjs.evtsExt__YGameSDK__InitPlayer.conditionTrue_0 = {val:false};
-gdjs.evtsExt__YGameSDK__InitPlayer.condition0IsTrue_0 = {val:false};
+gdjs.evtsExt__Language__Language.conditionTrue_0 = {val:false};
+gdjs.evtsExt__Language__Language.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__YGameSDK__InitPlayer.userFunc0x957860 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Language__Language.userFunc0x957860 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
-var isInitPlayer = runtimeScene.getGame().getVariables().get("YGSDK_Player_IsInit");
-var player;
-function initPlayer() {
-    return window.ysdk.getPlayer().then(_player => {
-            window.player_ysdk = _player;
-            isInitPlayer.setBoolean(true);
-            console.warn('init user');
-        });
-}
-initPlayer().catch(err => {
-        window.ysdk.auth.openAuthDialog().then(() => {
-
-                initPlayer();
-            }).catch(() => {
-                isInitPlayer.setBoolean(false);
-                console.warn('no init user');
-
-            });
-});
-
-
+eventsFunctionContext.returnValue = navigator.language || "";
 };
-gdjs.evtsExt__YGameSDK__InitPlayer.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Language__Language.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__YGameSDK__InitPlayer.userFunc0x957860(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Language__Language.userFunc0x957860(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
 
 };
 
-gdjs.evtsExt__YGameSDK__InitPlayer.func = function(runtimeScene, parentEventsFunctionContext) {
+gdjs.evtsExt__Language__Language.func = function(runtimeScene, parentEventsFunctionContext) {
 var eventsFunctionContext = {
   _objectsMap: {
 },
@@ -98,9 +78,9 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
 };
 
 
-gdjs.evtsExt__YGameSDK__InitPlayer.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Language__Language.eventsList0(runtimeScene, eventsFunctionContext);
 
-return;
+return "" + eventsFunctionContext.returnValue;
 }
 
-gdjs.evtsExt__YGameSDK__InitPlayer.registeredGdjsCallbacks = [];
+gdjs.evtsExt__Language__Language.registeredGdjsCallbacks = [];
