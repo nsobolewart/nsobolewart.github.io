@@ -11,7 +11,7 @@ gdjs.evtsExt__Language__Language.conditionTrue_0 = {val:false};
 gdjs.evtsExt__Language__Language.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Language__Language.userFunc0x957860 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Language__Language.userFunc0xa222a8 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = navigator.language || "";
 };
@@ -20,7 +20,7 @@ gdjs.evtsExt__Language__Language.eventsList0 = function(runtimeScene, eventsFunc
 {
 
 
-gdjs.evtsExt__Language__Language.userFunc0x957860(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Language__Language.userFunc0xa222a8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
