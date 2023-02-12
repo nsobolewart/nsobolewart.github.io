@@ -12,7 +12,7 @@ gdjs.evtsExt__YGameSDK__LoadPurchaseByID.condition0IsTrue_0 = {val:false};
 gdjs.evtsExt__YGameSDK__LoadPurchaseByID.condition1IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__YGameSDK__LoadPurchaseByID.userFunc0xac0f50 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__YGameSDK__LoadPurchaseByID.userFunc0x9238c8 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 var purchaseID = eventsFunctionContext.getArgument("ID");
 
@@ -37,7 +37,7 @@ gdjs.evtsExt__YGameSDK__LoadPurchaseByID.eventsList0 = function(runtimeScene, ev
 {
 
 
-gdjs.evtsExt__YGameSDK__LoadPurchaseByID.userFunc0xac0f50(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__YGameSDK__LoadPurchaseByID.userFunc0x9238c8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
