@@ -11,7 +11,7 @@ gdjs.evtsExt__YGameSDK__LoadLeaderboardByName.conditionTrue_0 = {val:false};
 gdjs.evtsExt__YGameSDK__LoadLeaderboardByName.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__YGameSDK__LoadLeaderboardByName.userFunc0x9b19e0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__YGameSDK__LoadLeaderboardByName.userFunc0x977680 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 var isInitVar = runtimeScene.getGame().getVariables().get("YGSDK_IsInit_Leaderboard");
 isInitVar.setBoolean(false);
@@ -45,7 +45,7 @@ gdjs.evtsExt__YGameSDK__LoadLeaderboardByName.eventsList0 = function(runtimeScen
 {
 
 
-gdjs.evtsExt__YGameSDK__LoadLeaderboardByName.userFunc0x9b19e0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__YGameSDK__LoadLeaderboardByName.userFunc0x977680(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

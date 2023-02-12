@@ -163,7 +163,7 @@ gdjs.evtsExt__SwipeGesture__onScenePreEvents.condition1IsTrue_0.val = gdjs.evtTo
 }if ( gdjs.evtsExt__SwipeGesture__onScenePreEvents.condition1IsTrue_0.val ) {
 {
 {gdjs.evtsExt__SwipeGesture__onScenePreEvents.conditionTrue_1 = gdjs.evtsExt__SwipeGesture__onScenePreEvents.condition2IsTrue_0;
-gdjs.evtsExt__SwipeGesture__onScenePreEvents.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(11383444);
+gdjs.evtsExt__SwipeGesture__onScenePreEvents.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(11450028);
 }
 }}
 }
