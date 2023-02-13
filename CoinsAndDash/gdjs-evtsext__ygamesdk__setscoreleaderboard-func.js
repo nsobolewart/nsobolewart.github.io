@@ -11,7 +11,7 @@ gdjs.evtsExt__YGameSDK__SetScoreLeaderboard.conditionTrue_0 = {val:false};
 gdjs.evtsExt__YGameSDK__SetScoreLeaderboard.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__YGameSDK__SetScoreLeaderboard.userFunc0xacf2c0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__YGameSDK__SetScoreLeaderboard.userFunc0xb34170 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 var variableName = runtimeScene.getGame().getVariables().get(eventsFunctionContext.getArgument("VariableName"));
 var tableName = runtimeScene.getGame().getVariables().get(eventsFunctionContext.getArgument("TableName"))
@@ -30,7 +30,7 @@ gdjs.evtsExt__YGameSDK__SetScoreLeaderboard.eventsList0 = function(runtimeScene,
 {
 
 
-gdjs.evtsExt__YGameSDK__SetScoreLeaderboard.userFunc0xacf2c0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__YGameSDK__SetScoreLeaderboard.userFunc0xb34170(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
