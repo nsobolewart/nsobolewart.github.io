@@ -11,7 +11,7 @@ gdjs.evtsExt__My_GamePixSDK__UpdateScore.conditionTrue_0 = {val:false};
 gdjs.evtsExt__My_GamePixSDK__UpdateScore.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__My_GamePixSDK__UpdateScore.userFunc0xca4ab8 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__My_GamePixSDK__UpdateScore.userFunc0xb71818 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 window.GamePix.updateScore(eventsFunctionContext.getArgument("update_score"));
 };
@@ -20,7 +20,7 @@ gdjs.evtsExt__My_GamePixSDK__UpdateScore.eventsList0 = function(runtimeScene, ev
 {
 
 
-gdjs.evtsExt__My_GamePixSDK__UpdateScore.userFunc0xca4ab8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__My_GamePixSDK__UpdateScore.userFunc0xb71818(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

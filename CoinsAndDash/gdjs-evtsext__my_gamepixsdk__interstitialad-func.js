@@ -11,7 +11,7 @@ gdjs.evtsExt__My_GamePixSDK__InterstitialAd.conditionTrue_0 = {val:false};
 gdjs.evtsExt__My_GamePixSDK__InterstitialAd.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__My_GamePixSDK__InterstitialAd.userFunc0x9dfc30 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__My_GamePixSDK__InterstitialAd.userFunc0xaff078 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 var result = runtimeScene.getGame().getVariables().get("GamePixSDK_interstitialAdResult"); 
 window.GamePix.interstitialAd().then(function (res) {
@@ -34,7 +34,7 @@ gdjs.evtsExt__My_GamePixSDK__InterstitialAd.eventsList0 = function(runtimeScene,
 {
 
 
-gdjs.evtsExt__My_GamePixSDK__InterstitialAd.userFunc0x9dfc30(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__My_GamePixSDK__InterstitialAd.userFunc0xaff078(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

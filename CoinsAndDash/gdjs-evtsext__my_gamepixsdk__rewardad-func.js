@@ -11,7 +11,7 @@ gdjs.evtsExt__My_GamePixSDK__RewardAd.conditionTrue_0 = {val:false};
 gdjs.evtsExt__My_GamePixSDK__RewardAd.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__My_GamePixSDK__RewardAd.userFunc0x8be920 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__My_GamePixSDK__RewardAd.userFunc0xb71818 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 var result = runtimeScene.getGame().getVariables().get("GamePixSDK_RewardedAdResult"); 
 window.GamePix.rewardAd().then(function (res) {
@@ -29,7 +29,7 @@ gdjs.evtsExt__My_GamePixSDK__RewardAd.eventsList0 = function(runtimeScene, event
 {
 
 
-gdjs.evtsExt__My_GamePixSDK__RewardAd.userFunc0x8be920(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__My_GamePixSDK__RewardAd.userFunc0xb71818(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

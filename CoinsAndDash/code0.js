@@ -470,7 +470,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects2.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects2.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12709148);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12553084);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -500,7 +500,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects2.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects2.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12576212);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12556196);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -615,7 +615,7 @@ gdjs.Main_32MenuCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariable
 }if ( gdjs.Main_32MenuCode.condition1IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition2IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12617948);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12553972);
 }
 }}
 }
@@ -670,7 +670,7 @@ gdjs.Main_32MenuCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariable
 }if ( gdjs.Main_32MenuCode.condition1IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition2IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12443604);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12557084);
 }
 }}
 }
@@ -710,7 +710,7 @@ gdjs.Main_32MenuCode.condition0IsTrue_0.val = gdjs.evtTools.storage.elementExist
 }
 
 
-};gdjs.Main_32MenuCode.asyncCallback11661540 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Main_32MenuCode.asyncCallback12561444 = function (runtimeScene, asyncObjectsList) {
 {runtimeScene.getGame().getVariables().getFromIndex(4).setString("ru");
 }{gdjs.evtTools.storage.writeStringInJSONFile("CoinAndDash_Storage", "Lang", "ru");
 }}
@@ -722,14 +722,14 @@ gdjs.Main_32MenuCode.eventsList17 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback11661540(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback12561444(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Main_32MenuCode.asyncCallback12532812 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Main_32MenuCode.asyncCallback12562652 = function (runtimeScene, asyncObjectsList) {
 {runtimeScene.getGame().getVariables().getFromIndex(4).setString("en");
 }{gdjs.evtTools.storage.writeStringInJSONFile("CoinAndDash_Storage", "Lang", "en");
 }}
@@ -741,7 +741,7 @@ gdjs.Main_32MenuCode.eventsList18 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback12532812(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback12562652(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -799,7 +799,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects2.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects2.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8271452);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12561020);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -811,7 +811,7 @@ gdjs.Main_32MenuCode.eventsList19(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Main_32MenuCode.asyncCallback10372444 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Main_32MenuCode.asyncCallback12564988 = function (runtimeScene, asyncObjectsList) {
 {runtimeScene.getGame().getVariables().getFromIndex(5).setNumber(1);
 }{gdjs.evtTools.storage.writeNumberInJSONFile("CoinAndDash_Storage", "sfx", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(5)));
 }}
@@ -823,7 +823,7 @@ gdjs.Main_32MenuCode.eventsList21 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback10372444(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback12564988(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -849,7 +849,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects3.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects3.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11562620);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12564700);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -861,7 +861,7 @@ gdjs.Main_32MenuCode.eventsList21(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Main_32MenuCode.asyncCallback7340428 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Main_32MenuCode.asyncCallback12566876 = function (runtimeScene, asyncObjectsList) {
 {runtimeScene.getGame().getVariables().getFromIndex(5).setNumber(0);
 }{gdjs.evtTools.storage.writeNumberInJSONFile("CoinAndDash_Storage", "sfx", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(5)));
 }}
@@ -873,7 +873,7 @@ gdjs.Main_32MenuCode.eventsList23 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback7340428(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback12566876(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -899,7 +899,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects2.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects2.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10236308);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12566804);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -971,7 +971,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects2.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects2.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11370212);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12567348);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -1087,7 +1087,7 @@ gdjs.Main_32MenuCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariable
 }if ( gdjs.Main_32MenuCode.condition1IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition2IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13290540);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12569764);
 }
 }}
 }
@@ -1131,7 +1131,7 @@ gdjs.copyArray(runtimeScene.getObjects("Coin_total_text"), gdjs.Main_32MenuCode.
 }
 
 
-};gdjs.Main_32MenuCode.asyncCallback12389260 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Main_32MenuCode.asyncCallback12580756 = function (runtimeScene, asyncObjectsList) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).sub(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(6).getChild(0).getChild("Price")));
 }{gdjs.evtTools.storage.writeNumberInJSONFile("CoinAndDash_Storage", "Coin_count_total", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getScene().getVariables().getFromIndex(6).getChild(0).getChild("Purchased"), true);
@@ -1145,7 +1145,7 @@ gdjs.Main_32MenuCode.eventsList29 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback12389260(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback12580756(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -1171,7 +1171,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects6.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects6.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12945660);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12581012);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -1246,7 +1246,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects4.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects4.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11716804);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12586540);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -1361,7 +1361,7 @@ gdjs.Main_32MenuCode.eventsList33(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Main_32MenuCode.asyncCallback7515988 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Main_32MenuCode.asyncCallback12590084 = function (runtimeScene, asyncObjectsList) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).sub(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(6).getChild(1).getChild("Price")));
 }{gdjs.evtTools.storage.writeNumberInJSONFile("CoinAndDash_Storage", "Coin_count_total", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getScene().getVariables().getFromIndex(6).getChild(1).getChild("Purchased"), true);
@@ -1375,7 +1375,7 @@ gdjs.Main_32MenuCode.eventsList35 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback7515988(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback12590084(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -1401,7 +1401,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects6.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects6.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7515892);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12590340);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -1476,7 +1476,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects4.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects4.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12479324);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12595868);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -1591,7 +1591,7 @@ gdjs.Main_32MenuCode.eventsList39(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Main_32MenuCode.asyncCallback11625092 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Main_32MenuCode.asyncCallback12599436 = function (runtimeScene, asyncObjectsList) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).sub(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(6).getChild(2).getChild("Price")));
 }{gdjs.evtTools.storage.writeNumberInJSONFile("CoinAndDash_Storage", "Coin_count_total", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getScene().getVariables().getFromIndex(6).getChild(2).getChild("Purchased"), true);
@@ -1605,7 +1605,7 @@ gdjs.Main_32MenuCode.eventsList41 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback11625092(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback12599436(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -1631,7 +1631,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects6.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects6.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11695564);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12599692);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -1706,7 +1706,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects4.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects4.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9765428);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12605220);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -1821,7 +1821,7 @@ gdjs.Main_32MenuCode.eventsList45(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Main_32MenuCode.asyncCallback11880580 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Main_32MenuCode.asyncCallback12608748 = function (runtimeScene, asyncObjectsList) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).sub(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(6).getChild(3).getChild("Price")));
 }{gdjs.evtTools.storage.writeNumberInJSONFile("CoinAndDash_Storage", "Coin_count_total", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getScene().getVariables().getFromIndex(6).getChild(3).getChild("Purchased"), true);
@@ -1835,7 +1835,7 @@ gdjs.Main_32MenuCode.eventsList47 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback11880580(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback12608748(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -1861,7 +1861,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects6.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects6.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13007716);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12609004);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -1936,7 +1936,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects4.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects4.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11896532);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12614532);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -2051,7 +2051,7 @@ gdjs.Main_32MenuCode.eventsList51(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Main_32MenuCode.asyncCallback9603484 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Main_32MenuCode.asyncCallback12618100 = function (runtimeScene, asyncObjectsList) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).sub(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(6).getChild(4).getChild("Price")));
 }{gdjs.evtTools.storage.writeNumberInJSONFile("CoinAndDash_Storage", "Coin_count_total", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getScene().getVariables().getFromIndex(6).getChild(4).getChild("Purchased"), true);
@@ -2065,7 +2065,7 @@ gdjs.Main_32MenuCode.eventsList53 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback9603484(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback12618100(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -2091,7 +2091,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects6.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects6.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10134380);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12618356);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -2166,7 +2166,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects4.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects4.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12419876);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12623884);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -2281,7 +2281,7 @@ gdjs.Main_32MenuCode.eventsList57(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Main_32MenuCode.asyncCallback10129020 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Main_32MenuCode.asyncCallback12627452 = function (runtimeScene, asyncObjectsList) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).sub(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(6).getChild(5).getChild("Price")));
 }{gdjs.evtTools.storage.writeNumberInJSONFile("CoinAndDash_Storage", "Coin_count_total", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getScene().getVariables().getFromIndex(6).getChild(5).getChild("Purchased"), true);
@@ -2295,7 +2295,7 @@ gdjs.Main_32MenuCode.eventsList59 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback10129020(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback12627452(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -2321,7 +2321,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects6.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects6.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10116180);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12627708);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -2396,7 +2396,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects4.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects4.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11653652);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12633236);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -2511,7 +2511,7 @@ gdjs.Main_32MenuCode.eventsList63(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Main_32MenuCode.asyncCallback12410212 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Main_32MenuCode.asyncCallback12636804 = function (runtimeScene, asyncObjectsList) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).sub(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(6).getChild(6).getChild("Price")));
 }{gdjs.evtTools.storage.writeNumberInJSONFile("CoinAndDash_Storage", "Coin_count_total", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getScene().getVariables().getFromIndex(6).getChild(6).getChild("Purchased"), true);
@@ -2525,7 +2525,7 @@ gdjs.Main_32MenuCode.eventsList65 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback12410212(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback12636804(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -2551,7 +2551,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects6.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects6.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12418020);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12637060);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -2626,7 +2626,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects4.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects4.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12443348);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12642588);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -2741,7 +2741,7 @@ gdjs.Main_32MenuCode.eventsList69(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Main_32MenuCode.asyncCallback12392684 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Main_32MenuCode.asyncCallback12646156 = function (runtimeScene, asyncObjectsList) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).sub(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(6).getChild(7).getChild("Price")));
 }{gdjs.evtTools.storage.writeNumberInJSONFile("CoinAndDash_Storage", "Coin_count_total", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getScene().getVariables().getFromIndex(6).getChild(7).getChild("Purchased"), true);
@@ -2755,7 +2755,7 @@ gdjs.Main_32MenuCode.eventsList71 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback12392684(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback12646156(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -2781,7 +2781,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects6.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects6.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12392588);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12646412);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -2856,7 +2856,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects4.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects4.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11361084);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12651940);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -2971,7 +2971,7 @@ gdjs.Main_32MenuCode.eventsList75(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Main_32MenuCode.asyncCallback12447268 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Main_32MenuCode.asyncCallback12655508 = function (runtimeScene, asyncObjectsList) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).sub(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(6).getChild(8).getChild("Price")));
 }{gdjs.evtTools.storage.writeNumberInJSONFile("CoinAndDash_Storage", "Coin_count_total", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getScene().getVariables().getFromIndex(6).getChild(8).getChild("Purchased"), true);
@@ -2985,7 +2985,7 @@ gdjs.Main_32MenuCode.eventsList77 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback12447268(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback12655508(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -3011,7 +3011,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects6.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects6.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12367660);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12655764);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -3086,7 +3086,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects4.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects4.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12351804);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12661292);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -3201,7 +3201,7 @@ gdjs.Main_32MenuCode.eventsList81(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Main_32MenuCode.asyncCallback12477300 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Main_32MenuCode.asyncCallback12664916 = function (runtimeScene, asyncObjectsList) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).sub(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(6).getChild(9).getChild("Price")));
 }{gdjs.evtTools.storage.writeNumberInJSONFile("CoinAndDash_Storage", "Coin_count_total", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getScene().getVariables().getFromIndex(6).getChild(9).getChild("Purchased"), true);
@@ -3215,7 +3215,7 @@ gdjs.Main_32MenuCode.eventsList83 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback12477300(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback12664916(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -3241,7 +3241,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects6.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects6.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12477228);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12665172);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -3316,7 +3316,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects4.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects4.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10069788);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12670700);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -3431,7 +3431,7 @@ gdjs.Main_32MenuCode.eventsList87(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Main_32MenuCode.asyncCallback12398212 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Main_32MenuCode.asyncCallback12674268 = function (runtimeScene, asyncObjectsList) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).sub(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(6).getChild(10).getChild("Price")));
 }{gdjs.evtTools.storage.writeNumberInJSONFile("CoinAndDash_Storage", "Coin_count_total", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getScene().getVariables().getFromIndex(6).getChild(10).getChild("Purchased"), true);
@@ -3445,7 +3445,7 @@ gdjs.Main_32MenuCode.eventsList89 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback12398212(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback12674268(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -3471,7 +3471,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects5.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects5.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12398132);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12674524);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -3546,7 +3546,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects3.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects3.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12420380);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12680052);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -4190,7 +4190,7 @@ gdjs.copyArray(gdjs.Main_32MenuCode.GDSkinSelectButtonRightObjects3_1final, gdjs
 }if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10099044);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12686084);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -4250,7 +4250,7 @@ gdjs.copyArray(gdjs.Main_32MenuCode.GDSkinSelectButtonLeftObjects2_1final, gdjs.
 }if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12362412);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12688140);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -4281,7 +4281,7 @@ for(var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMainMenuButtonObjects2.length;i
 gdjs.Main_32MenuCode.GDMainMenuButtonObjects2.length = k;}if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12452420);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12690700);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {
@@ -4348,7 +4348,7 @@ gdjs.Main_32MenuCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariable
 }if ( gdjs.Main_32MenuCode.condition1IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition2IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11903460);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12691876);
 }
 }}
 }
@@ -4376,6 +4376,19 @@ gdjs.copyArray(runtimeScene.getObjects("SkinSelectButtonRight"), gdjs.Main_32Men
 
 
 };gdjs.Main_32MenuCode.eventsList101 = function(runtimeScene) {
+
+{
+
+
+gdjs.Main_32MenuCode.condition0IsTrue_0.val = false;
+{
+gdjs.Main_32MenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Numpad5");
+}if (gdjs.Main_32MenuCode.condition0IsTrue_0.val) {
+{gdjs.evtTools.storage.clearJSONFile("CoinAndDash_Storage");
+}}
+
+}
+
 
 {
 
@@ -4445,7 +4458,7 @@ gdjs.Main_32MenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(r
 }if ( gdjs.Main_32MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition1IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12461772);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12693500);
 }
 }}
 if (gdjs.Main_32MenuCode.condition1IsTrue_0.val) {

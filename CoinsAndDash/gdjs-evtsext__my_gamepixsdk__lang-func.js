@@ -11,7 +11,7 @@ gdjs.evtsExt__My_GamePixSDK__Lang.conditionTrue_0 = {val:false};
 gdjs.evtsExt__My_GamePixSDK__Lang.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__My_GamePixSDK__Lang.userFunc0xb6f4c0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__My_GamePixSDK__Lang.userFunc0x8f8d40 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 var lang_variable = runtimeScene.getGame().getVariables().get(eventsFunctionContext.getArgument("lang"));
 var l = window.GamePix.lang();
@@ -23,7 +23,7 @@ gdjs.evtsExt__My_GamePixSDK__Lang.eventsList0 = function(runtimeScene, eventsFun
 {
 
 
-gdjs.evtsExt__My_GamePixSDK__Lang.userFunc0xb6f4c0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__My_GamePixSDK__Lang.userFunc0x8f8d40(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

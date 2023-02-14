@@ -11,7 +11,7 @@ gdjs.evtsExt__YGameSDK__GetLang.conditionTrue_0 = {val:false};
 gdjs.evtsExt__YGameSDK__GetLang.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__YGameSDK__GetLang.userFunc0xcad9d0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__YGameSDK__GetLang.userFunc0x8f8d40 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 var lang_variable = runtimeScene.getGame().getVariables().get(eventsFunctionContext.getArgument("lang"));
 var l = window.ysdk.environment;
@@ -23,7 +23,7 @@ gdjs.evtsExt__YGameSDK__GetLang.eventsList0 = function(runtimeScene, eventsFunct
 {
 
 
-gdjs.evtsExt__YGameSDK__GetLang.userFunc0xcad9d0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__YGameSDK__GetLang.userFunc0x8f8d40(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

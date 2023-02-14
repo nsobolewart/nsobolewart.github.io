@@ -11,7 +11,7 @@ gdjs.evtsExt__YGameSDK__InitPlayer.conditionTrue_0 = {val:false};
 gdjs.evtsExt__YGameSDK__InitPlayer.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__YGameSDK__InitPlayer.userFunc0xb77140 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__YGameSDK__InitPlayer.userFunc0x8f8d40 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 var isInitPlayer = runtimeScene.getGame().getVariables().get("YGSDK_Player_IsInit");
 var player;
@@ -40,7 +40,7 @@ gdjs.evtsExt__YGameSDK__InitPlayer.eventsList0 = function(runtimeScene, eventsFu
 {
 
 
-gdjs.evtsExt__YGameSDK__InitPlayer.userFunc0xb77140(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__YGameSDK__InitPlayer.userFunc0x8f8d40(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

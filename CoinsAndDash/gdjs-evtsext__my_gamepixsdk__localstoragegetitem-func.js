@@ -11,7 +11,7 @@ gdjs.evtsExt__My_GamePixSDK__localStorageGetItem.conditionTrue_0 = {val:false};
 gdjs.evtsExt__My_GamePixSDK__localStorageGetItem.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__My_GamePixSDK__localStorageGetItem.userFunc0xb6f4c0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__My_GamePixSDK__localStorageGetItem.userFunc0x8f8d40 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 window.GamePix.localStorage.getItem(eventsFunctionContext.getArgument("key"));
 };
@@ -20,7 +20,7 @@ gdjs.evtsExt__My_GamePixSDK__localStorageGetItem.eventsList0 = function(runtimeS
 {
 
 
-gdjs.evtsExt__My_GamePixSDK__localStorageGetItem.userFunc0xb6f4c0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__My_GamePixSDK__localStorageGetItem.userFunc0x8f8d40(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

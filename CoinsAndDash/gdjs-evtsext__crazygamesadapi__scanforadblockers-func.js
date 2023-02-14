@@ -11,7 +11,7 @@ gdjs.evtsExt__CrazyGamesAdApi__ScanForAdBlockers.conditionTrue_0 = {val:false};
 gdjs.evtsExt__CrazyGamesAdApi__ScanForAdBlockers.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__CrazyGamesAdApi__ScanForAdBlockers.userFunc0xb727e8 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__CrazyGamesAdApi__ScanForAdBlockers.userFunc0x8f8d40 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 try {
     function adblockDetection(event) {
@@ -29,7 +29,7 @@ gdjs.evtsExt__CrazyGamesAdApi__ScanForAdBlockers.eventsList0 = function(runtimeS
 {
 
 
-gdjs.evtsExt__CrazyGamesAdApi__ScanForAdBlockers.userFunc0xb727e8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__CrazyGamesAdApi__ScanForAdBlockers.userFunc0x8f8d40(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

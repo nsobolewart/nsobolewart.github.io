@@ -11,7 +11,7 @@ gdjs.evtsExt__CrazyGamesAdApi__DisplayHappyTime.conditionTrue_0 = {val:false};
 gdjs.evtsExt__CrazyGamesAdApi__DisplayHappyTime.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__CrazyGamesAdApi__DisplayHappyTime.userFunc0xb727e8 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__CrazyGamesAdApi__DisplayHappyTime.userFunc0x8f8d40 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 try {
     const crazysdk = window.CrazyGames.CrazySDK.getInstance();
@@ -26,7 +26,7 @@ gdjs.evtsExt__CrazyGamesAdApi__DisplayHappyTime.eventsList0 = function(runtimeSc
 {
 
 
-gdjs.evtsExt__CrazyGamesAdApi__DisplayHappyTime.userFunc0xb727e8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__CrazyGamesAdApi__DisplayHappyTime.userFunc0x8f8d40(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

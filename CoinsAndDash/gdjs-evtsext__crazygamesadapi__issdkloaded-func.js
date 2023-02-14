@@ -11,7 +11,7 @@ gdjs.evtsExt__CrazyGamesAdApi__IsSDKLoaded.conditionTrue_0 = {val:false};
 gdjs.evtsExt__CrazyGamesAdApi__IsSDKLoaded.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__CrazyGamesAdApi__IsSDKLoaded.userFunc0xc9ea78 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__CrazyGamesAdApi__IsSDKLoaded.userFunc0x8f8d40 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = (CrazyGames != undefined);
 };
@@ -20,7 +20,7 @@ gdjs.evtsExt__CrazyGamesAdApi__IsSDKLoaded.eventsList0 = function(runtimeScene, 
 {
 
 
-gdjs.evtsExt__CrazyGamesAdApi__IsSDKLoaded.userFunc0xc9ea78(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__CrazyGamesAdApi__IsSDKLoaded.userFunc0x8f8d40(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

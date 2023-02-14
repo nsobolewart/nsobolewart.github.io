@@ -13,7 +13,7 @@ gdjs.evtsExt__YGameSDK__InitPayments.condition1IsTrue_0 = {val:false};
 gdjs.evtsExt__YGameSDK__InitPayments.condition2IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__YGameSDK__InitPayments.userFunc0x93a9d0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__YGameSDK__InitPayments.userFunc0xb722e8 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 var isInitPayment = runtimeScene.getGame().getVariables().get("YGSDK_Payment_IsInit");
 isInitPayment.setBoolean(false);
@@ -33,7 +33,7 @@ gdjs.evtsExt__YGameSDK__InitPayments.eventsList0 = function(runtimeScene, events
 {
 
 
-gdjs.evtsExt__YGameSDK__InitPayments.userFunc0x93a9d0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__YGameSDK__InitPayments.userFunc0xb722e8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

@@ -11,7 +11,7 @@ gdjs.evtsExt__My_GamePixSDK__UpdateLevel.conditionTrue_0 = {val:false};
 gdjs.evtsExt__My_GamePixSDK__UpdateLevel.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__My_GamePixSDK__UpdateLevel.userFunc0xb6f320 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__My_GamePixSDK__UpdateLevel.userFunc0x8f8d40 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 window.GamePix.updateLevel(eventsFunctionContext.getArgument("update_level"));
 };
@@ -20,7 +20,7 @@ gdjs.evtsExt__My_GamePixSDK__UpdateLevel.eventsList0 = function(runtimeScene, ev
 {
 
 
-gdjs.evtsExt__My_GamePixSDK__UpdateLevel.userFunc0xb6f320(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__My_GamePixSDK__UpdateLevel.userFunc0x8f8d40(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
