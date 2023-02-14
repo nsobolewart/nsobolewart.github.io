@@ -1,33 +1,36 @@
 
-if (typeof gdjs.evtsExt__Language__Language !== "undefined") {
-  gdjs.evtsExt__Language__Language.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__My_GamePixSDK__Lang !== "undefined") {
+  gdjs.evtsExt__My_GamePixSDK__Lang.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__Language__Language = {};
+gdjs.evtsExt__My_GamePixSDK__Lang = {};
 
-gdjs.evtsExt__Language__Language.conditionTrue_0 = {val:false};
-gdjs.evtsExt__Language__Language.condition0IsTrue_0 = {val:false};
+gdjs.evtsExt__My_GamePixSDK__Lang.conditionTrue_0 = {val:false};
+gdjs.evtsExt__My_GamePixSDK__Lang.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Language__Language.userFunc0x91d3a0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__My_GamePixSDK__Lang.userFunc0xb6f4c0 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
-eventsFunctionContext.returnValue = navigator.language || "";
+var lang_variable = runtimeScene.getGame().getVariables().get(eventsFunctionContext.getArgument("lang"));
+var l = window.GamePix.lang();
+console.log(l);
+lang_variable.setString(l);
 };
-gdjs.evtsExt__Language__Language.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__My_GamePixSDK__Lang.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__Language__Language.userFunc0x91d3a0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__My_GamePixSDK__Lang.userFunc0xb6f4c0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
 
 };
 
-gdjs.evtsExt__Language__Language.func = function(runtimeScene, parentEventsFunctionContext) {
+gdjs.evtsExt__My_GamePixSDK__Lang.func = function(runtimeScene, lang, parentEventsFunctionContext) {
 var eventsFunctionContext = {
   _objectsMap: {
 },
@@ -72,15 +75,16 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
     return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
+if (argName === "lang") return lang;
     return "";
   },
   getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
 };
 
 
-gdjs.evtsExt__Language__Language.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__My_GamePixSDK__Lang.eventsList0(runtimeScene, eventsFunctionContext);
 
-return "" + eventsFunctionContext.returnValue;
+return;
 }
 
-gdjs.evtsExt__Language__Language.registeredGdjsCallbacks = [];
+gdjs.evtsExt__My_GamePixSDK__Lang.registeredGdjsCallbacks = [];

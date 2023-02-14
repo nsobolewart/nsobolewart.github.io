@@ -1,33 +1,39 @@
 
-if (typeof gdjs.evtsExt__Language__Language !== "undefined") {
-  gdjs.evtsExt__Language__Language.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__CrazyGamesAdApi__DisplayHappyTime !== "undefined") {
+  gdjs.evtsExt__CrazyGamesAdApi__DisplayHappyTime.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__Language__Language = {};
+gdjs.evtsExt__CrazyGamesAdApi__DisplayHappyTime = {};
 
-gdjs.evtsExt__Language__Language.conditionTrue_0 = {val:false};
-gdjs.evtsExt__Language__Language.condition0IsTrue_0 = {val:false};
+gdjs.evtsExt__CrazyGamesAdApi__DisplayHappyTime.conditionTrue_0 = {val:false};
+gdjs.evtsExt__CrazyGamesAdApi__DisplayHappyTime.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Language__Language.userFunc0x91d3a0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__CrazyGamesAdApi__DisplayHappyTime.userFunc0xb727e8 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
-eventsFunctionContext.returnValue = navigator.language || "";
+try {
+    const crazysdk = window.CrazyGames.CrazySDK.getInstance();
+    // Player beats a boss, reaches a high score, etc.
+    crazysdk.happytime();
+} catch(error) {
+    console.log("Unable to display happytime. Full error is:", error);
+}
 };
-gdjs.evtsExt__Language__Language.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__CrazyGamesAdApi__DisplayHappyTime.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__Language__Language.userFunc0x91d3a0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__CrazyGamesAdApi__DisplayHappyTime.userFunc0xb727e8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
 
 };
 
-gdjs.evtsExt__Language__Language.func = function(runtimeScene, parentEventsFunctionContext) {
+gdjs.evtsExt__CrazyGamesAdApi__DisplayHappyTime.func = function(runtimeScene, parentEventsFunctionContext) {
 var eventsFunctionContext = {
   _objectsMap: {
 },
@@ -78,9 +84,9 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
 };
 
 
-gdjs.evtsExt__Language__Language.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__CrazyGamesAdApi__DisplayHappyTime.eventsList0(runtimeScene, eventsFunctionContext);
 
-return "" + eventsFunctionContext.returnValue;
+return;
 }
 
-gdjs.evtsExt__Language__Language.registeredGdjsCallbacks = [];
+gdjs.evtsExt__CrazyGamesAdApi__DisplayHappyTime.registeredGdjsCallbacks = [];

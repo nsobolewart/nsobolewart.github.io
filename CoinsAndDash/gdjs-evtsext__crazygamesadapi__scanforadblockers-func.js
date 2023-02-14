@@ -1,33 +1,42 @@
 
-if (typeof gdjs.evtsExt__Language__Language !== "undefined") {
-  gdjs.evtsExt__Language__Language.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__CrazyGamesAdApi__ScanForAdBlockers !== "undefined") {
+  gdjs.evtsExt__CrazyGamesAdApi__ScanForAdBlockers.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__Language__Language = {};
+gdjs.evtsExt__CrazyGamesAdApi__ScanForAdBlockers = {};
 
-gdjs.evtsExt__Language__Language.conditionTrue_0 = {val:false};
-gdjs.evtsExt__Language__Language.condition0IsTrue_0 = {val:false};
+gdjs.evtsExt__CrazyGamesAdApi__ScanForAdBlockers.conditionTrue_0 = {val:false};
+gdjs.evtsExt__CrazyGamesAdApi__ScanForAdBlockers.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Language__Language.userFunc0x91d3a0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__CrazyGamesAdApi__ScanForAdBlockers.userFunc0xb727e8 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
-eventsFunctionContext.returnValue = navigator.language || "";
+try {
+    function adblockDetection(event) {
+        runtimeScene.getVariables().get("__CrazyGamesExtension").getChild("adBlocker").setBoolean(!!event.hasAdblock);
+    }
+
+    const crazysdk = window.CrazyGames.CrazySDK.getInstance();
+    crazysdk.addEventListener("adblockDetectionExecuted", adblockDetection);
+} catch(error) {
+    console.log("Unable to scan adblockers. Full error is:", error);
+}
 };
-gdjs.evtsExt__Language__Language.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__CrazyGamesAdApi__ScanForAdBlockers.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__Language__Language.userFunc0x91d3a0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__CrazyGamesAdApi__ScanForAdBlockers.userFunc0xb727e8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
 
 };
 
-gdjs.evtsExt__Language__Language.func = function(runtimeScene, parentEventsFunctionContext) {
+gdjs.evtsExt__CrazyGamesAdApi__ScanForAdBlockers.func = function(runtimeScene, parentEventsFunctionContext) {
 var eventsFunctionContext = {
   _objectsMap: {
 },
@@ -78,9 +87,9 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
 };
 
 
-gdjs.evtsExt__Language__Language.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__CrazyGamesAdApi__ScanForAdBlockers.eventsList0(runtimeScene, eventsFunctionContext);
 
-return "" + eventsFunctionContext.returnValue;
+return;
 }
 
-gdjs.evtsExt__Language__Language.registeredGdjsCallbacks = [];
+gdjs.evtsExt__CrazyGamesAdApi__ScanForAdBlockers.registeredGdjsCallbacks = [];

@@ -1,33 +1,37 @@
 
-if (typeof gdjs.evtsExt__Language__Language !== "undefined") {
-  gdjs.evtsExt__Language__Language.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__My_GamePixSDK__InitSDK !== "undefined") {
+  gdjs.evtsExt__My_GamePixSDK__InitSDK.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__Language__Language = {};
+gdjs.evtsExt__My_GamePixSDK__InitSDK = {};
 
-gdjs.evtsExt__Language__Language.conditionTrue_0 = {val:false};
-gdjs.evtsExt__Language__Language.condition0IsTrue_0 = {val:false};
+gdjs.evtsExt__My_GamePixSDK__InitSDK.conditionTrue_0 = {val:false};
+gdjs.evtsExt__My_GamePixSDK__InitSDK.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Language__Language.userFunc0x91d3a0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__My_GamePixSDK__InitSDK.userFunc0x9dfc30 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
-eventsFunctionContext.returnValue = navigator.language || "";
+(function(d) {
+    var s = d.createElement('script');
+    s.src = 'https://integration.gamepix.com/sdk/v3/gamepix.sdk.js';
+    document.head.append(s);
+    })(document);
 };
-gdjs.evtsExt__Language__Language.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__My_GamePixSDK__InitSDK.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__Language__Language.userFunc0x91d3a0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__My_GamePixSDK__InitSDK.userFunc0x9dfc30(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
 
 };
 
-gdjs.evtsExt__Language__Language.func = function(runtimeScene, parentEventsFunctionContext) {
+gdjs.evtsExt__My_GamePixSDK__InitSDK.func = function(runtimeScene, parentEventsFunctionContext) {
 var eventsFunctionContext = {
   _objectsMap: {
 },
@@ -78,9 +82,9 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
 };
 
 
-gdjs.evtsExt__Language__Language.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__My_GamePixSDK__InitSDK.eventsList0(runtimeScene, eventsFunctionContext);
 
-return "" + eventsFunctionContext.returnValue;
+return;
 }
 
-gdjs.evtsExt__Language__Language.registeredGdjsCallbacks = [];
+gdjs.evtsExt__My_GamePixSDK__InitSDK.registeredGdjsCallbacks = [];

@@ -1,33 +1,42 @@
 
-if (typeof gdjs.evtsExt__Language__Language !== "undefined") {
-  gdjs.evtsExt__Language__Language.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__My_GamePixSDK__RewardAd !== "undefined") {
+  gdjs.evtsExt__My_GamePixSDK__RewardAd.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__Language__Language = {};
+gdjs.evtsExt__My_GamePixSDK__RewardAd = {};
 
-gdjs.evtsExt__Language__Language.conditionTrue_0 = {val:false};
-gdjs.evtsExt__Language__Language.condition0IsTrue_0 = {val:false};
+gdjs.evtsExt__My_GamePixSDK__RewardAd.conditionTrue_0 = {val:false};
+gdjs.evtsExt__My_GamePixSDK__RewardAd.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Language__Language.userFunc0x91d3a0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__My_GamePixSDK__RewardAd.userFunc0x8be920 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
-eventsFunctionContext.returnValue = navigator.language || "";
+var result = runtimeScene.getGame().getVariables().get("GamePixSDK_RewardedAdResult"); 
+window.GamePix.rewardAd().then(function (res) {
+    if (res.success) {
+      result = true;
+      console.log("rewardAdYes")
+    } else {
+      result = false;
+      console.log("rewardAdNo")
+    }
+  });
 };
-gdjs.evtsExt__Language__Language.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__My_GamePixSDK__RewardAd.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__Language__Language.userFunc0x91d3a0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__My_GamePixSDK__RewardAd.userFunc0x8be920(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
 
 };
 
-gdjs.evtsExt__Language__Language.func = function(runtimeScene, parentEventsFunctionContext) {
+gdjs.evtsExt__My_GamePixSDK__RewardAd.func = function(runtimeScene, parentEventsFunctionContext) {
 var eventsFunctionContext = {
   _objectsMap: {
 },
@@ -78,9 +87,9 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
 };
 
 
-gdjs.evtsExt__Language__Language.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__My_GamePixSDK__RewardAd.eventsList0(runtimeScene, eventsFunctionContext);
 
-return "" + eventsFunctionContext.returnValue;
+return;
 }
 
-gdjs.evtsExt__Language__Language.registeredGdjsCallbacks = [];
+gdjs.evtsExt__My_GamePixSDK__RewardAd.registeredGdjsCallbacks = [];

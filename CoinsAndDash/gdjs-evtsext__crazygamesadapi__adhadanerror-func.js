@@ -1,33 +1,43 @@
 
-if (typeof gdjs.evtsExt__Language__Language !== "undefined") {
-  gdjs.evtsExt__Language__Language.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__CrazyGamesAdApi__AdHadAnError !== "undefined") {
+  gdjs.evtsExt__CrazyGamesAdApi__AdHadAnError.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__Language__Language = {};
+gdjs.evtsExt__CrazyGamesAdApi__AdHadAnError = {};
 
-gdjs.evtsExt__Language__Language.conditionTrue_0 = {val:false};
-gdjs.evtsExt__Language__Language.condition0IsTrue_0 = {val:false};
+gdjs.evtsExt__CrazyGamesAdApi__AdHadAnError.conditionTrue_0 = {val:false};
+gdjs.evtsExt__CrazyGamesAdApi__AdHadAnError.condition0IsTrue_0 = {val:false};
+gdjs.evtsExt__CrazyGamesAdApi__AdHadAnError.condition1IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Language__Language.userFunc0x91d3a0 = function(runtimeScene, eventsFunctionContext) {
-"use strict";
-eventsFunctionContext.returnValue = navigator.language || "";
-};
-gdjs.evtsExt__Language__Language.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__CrazyGamesAdApi__AdHadAnError.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__Language__Language.userFunc0x91d3a0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+{
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = false; }}}
+
+}
+
+
+{
+
+
+gdjs.evtsExt__CrazyGamesAdApi__AdHadAnError.condition0IsTrue_0.val = false;
+{
+gdjs.evtsExt__CrazyGamesAdApi__AdHadAnError.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getScene().getVariables().get("__CrazyGamesExtension").getChild("adError"), true);
+}if (gdjs.evtsExt__CrazyGamesAdApi__AdHadAnError.condition0IsTrue_0.val) {
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
 
 }
 
 
 };
 
-gdjs.evtsExt__Language__Language.func = function(runtimeScene, parentEventsFunctionContext) {
+gdjs.evtsExt__CrazyGamesAdApi__AdHadAnError.func = function(runtimeScene, parentEventsFunctionContext) {
 var eventsFunctionContext = {
   _objectsMap: {
 },
@@ -78,9 +88,9 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
 };
 
 
-gdjs.evtsExt__Language__Language.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__CrazyGamesAdApi__AdHadAnError.eventsList0(runtimeScene, eventsFunctionContext);
 
-return "" + eventsFunctionContext.returnValue;
+return !!eventsFunctionContext.returnValue;
 }
 
-gdjs.evtsExt__Language__Language.registeredGdjsCallbacks = [];
+gdjs.evtsExt__CrazyGamesAdApi__AdHadAnError.registeredGdjsCallbacks = [];
