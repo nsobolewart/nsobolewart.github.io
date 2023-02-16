@@ -11,20 +11,18 @@ gdjs.evtsExt__My_GamePixSDK__InterstitialAd.conditionTrue_0 = {val:false};
 gdjs.evtsExt__My_GamePixSDK__InterstitialAd.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__My_GamePixSDK__InterstitialAd.userFunc0xaff078 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__My_GamePixSDK__InterstitialAd.userFunc0xc03a98 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
-var result = runtimeScene.getGame().getVariables().get("GamePixSDK_interstitialAdResult"); 
 window.GamePix.interstitialAd().then(function (res) {
-
+  var result = runtimeScene.getVariables().get("GamePixSDK_interstitialAdResult");
     // IMPORTANT: *** RESUME YOUR GAME ***
-
     if (res.success) {
       // Log the success if you want
-      result = true;
+      result.setBoolean(true);
       console.warn("interstitialAdYes")
     } else {
       // Log the error if you want
-      result = false;
+      result.setBoolean(false);
       console.warn("interstitialAdNo")
     }
   });
@@ -34,7 +32,7 @@ gdjs.evtsExt__My_GamePixSDK__InterstitialAd.eventsList0 = function(runtimeScene,
 {
 
 
-gdjs.evtsExt__My_GamePixSDK__InterstitialAd.userFunc0xaff078(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__My_GamePixSDK__InterstitialAd.userFunc0xc03a98(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

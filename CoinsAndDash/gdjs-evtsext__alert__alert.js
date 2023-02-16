@@ -185,7 +185,7 @@ gdjs.evtsExt__Alert__Alert.Alert.prototype.doStepPreEventsContext.condition0IsTr
 }if ( gdjs.evtsExt__Alert__Alert.Alert.prototype.doStepPreEventsContext.condition0IsTrue_0.val ) {
 {
 {gdjs.evtsExt__Alert__Alert.Alert.prototype.doStepPreEventsContext.conditionTrue_1 = gdjs.evtsExt__Alert__Alert.Alert.prototype.doStepPreEventsContext.condition1IsTrue_0;
-gdjs.evtsExt__Alert__Alert.Alert.prototype.doStepPreEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(12500916);
+gdjs.evtsExt__Alert__Alert.Alert.prototype.doStepPreEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(13372988);
 }
 }}
 if (gdjs.evtsExt__Alert__Alert.Alert.prototype.doStepPreEventsContext.condition1IsTrue_0.val) {
@@ -222,7 +222,7 @@ for(var i = 0, k = 0, l = gdjs.evtsExt__Alert__Alert.Alert.prototype.doStepPreEv
 gdjs.evtsExt__Alert__Alert.Alert.prototype.doStepPreEventsContext.GDObjectObjects1.length = k;}if ( gdjs.evtsExt__Alert__Alert.Alert.prototype.doStepPreEventsContext.condition1IsTrue_0.val ) {
 {
 {gdjs.evtsExt__Alert__Alert.Alert.prototype.doStepPreEventsContext.conditionTrue_1 = gdjs.evtsExt__Alert__Alert.Alert.prototype.doStepPreEventsContext.condition2IsTrue_0;
-gdjs.evtsExt__Alert__Alert.Alert.prototype.doStepPreEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(12501948);
+gdjs.evtsExt__Alert__Alert.Alert.prototype.doStepPreEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(13374020);
 }
 }}
 }

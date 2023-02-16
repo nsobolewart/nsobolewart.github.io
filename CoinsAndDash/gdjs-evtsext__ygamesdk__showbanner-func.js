@@ -12,7 +12,7 @@ gdjs.evtsExt__YGameSDK__ShowBanner.condition0IsTrue_0 = {val:false};
 gdjs.evtsExt__YGameSDK__ShowBanner.condition1IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__YGameSDK__ShowBanner.userFunc0x8f8d40 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__YGameSDK__ShowBanner.userFunc0xc5b518 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 
 try {
@@ -42,7 +42,7 @@ gdjs.evtsExt__YGameSDK__ShowBanner.eventsList0 = function(runtimeScene, eventsFu
 {
 
 
-gdjs.evtsExt__YGameSDK__ShowBanner.userFunc0x8f8d40(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__YGameSDK__ShowBanner.userFunc0xc5b518(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

@@ -11,7 +11,7 @@ gdjs.evtsExt__My_GamePixSDK__InitSDK.conditionTrue_0 = {val:false};
 gdjs.evtsExt__My_GamePixSDK__InitSDK.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__My_GamePixSDK__InitSDK.userFunc0xaff078 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__My_GamePixSDK__InitSDK.userFunc0xc03a98 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 (function(d) {
     var s = d.createElement('script');
@@ -24,7 +24,7 @@ gdjs.evtsExt__My_GamePixSDK__InitSDK.eventsList0 = function(runtimeScene, events
 {
 
 
-gdjs.evtsExt__My_GamePixSDK__InitSDK.userFunc0xaff078(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__My_GamePixSDK__InitSDK.userFunc0xc03a98(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
